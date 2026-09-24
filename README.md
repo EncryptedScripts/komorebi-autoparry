@@ -1,6 +1,6 @@
 # Encrypted's Private Script — Komorebi Prison
 
-Script combat all-in-one buat **[UPDATE!] Komorebi Prison**: auto parry yang ngikutin aturan parry asli game, lock target, visual HP/stamina musuh, dash & movement custom, plus sistem config.
+Script combat all-in-one buat **[UPDATE!] Komorebi Prison**: auto parry yang ngikutin aturan parry asli game, lock target, visual HP/stamina musuh, dash & movement custom, plus sistem config — dengan menu bergaya RPG (sidebar tab, switch, slider).
 
 ## Cara pakai
 
@@ -25,7 +25,8 @@ Semua keybind bisa diganti dari menu.
 **Combat**
 - **Auto Parry** — timing dihitung per penyerang (tinggi badan, fighting style, ability aktif), termasuk heavy (Super). Cuma nekan block buat serangan yang beneran bakal kena, biar window parry gak kebuang.
 - **Parry Chance, Rotation Cone, Max Range** — atur lewat slider.
-- **Auto Face** — kamera & badan otomatis ngadep penyerang, ada slider **Face Smoothing**.
+- **Predict Combo** — lawan yang nge-lag (sinyal serangannya telat nyampe) pukulan combo berikutnya ditebak & di-parry duluan.
+- **Auto Face** — kamera & badan otomatis ngadep penyerang, ada slider **Face Smoothing**. OFF = gak muter sama sekali.
 - **Auto Stance** — otomatis masuk combat stance (block cuma jalan di stance).
 - **Input Guard + buffer** — klik / heavy yang lu pencet pas parry jalan disimpen, terus dikirim otomatis abis parry (pas musuh kena parry-stun).
 - **Lock Target** — pilih pemain dari dropdown atau lock ke yang terdekat; kamera & badan selalu ngadep target.
@@ -37,7 +38,9 @@ Semua keybind bisa diganti dari menu.
 - **No Slowdown / No Stun** — gak dipelanin pas nyerang / block / HP rendah, dan tetep bisa gerak pas stun.
 
 **Visual**
-- HP, stamina, dan cooldown heavy musuh (di atas kepala) & diri sendiri (HUD) — semua bisa on/off.
+- Nameplate musuh (nama, HP + ghost bar, stamina, cooldown heavy) & HUD sendiri gaya RPG (slot skill heavy) — semua bisa on/off.
+- **Visual Parry** — indikator PARRY / BLOCK / KENA di bawah crosshair + highlight penyerang.
+- **Visual Hitbox** — area kena serangan musuh di tanah (merah = bakal kena lu).
 
 **Config**
 - Save pakai nama, pilih dari dropdown, load, delete, dan **autoload** config pilihan tiap script dijalanin.
