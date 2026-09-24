@@ -30,6 +30,8 @@ Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy,
 - **Auto Stance** — otomatis masuk combat stance (block cuma jalan di stance).
 - **Input Guard + buffer** — klik / heavy yang lu pencet pas parry jalan disimpen, terus dikirim otomatis abis parry (pas musuh kena parry-stun).
 - **Lock Target** — pilih pemain dari dropdown atau lock ke yang terdekat; kamera & badan selalu ngadep target.
+- **Smart Stomp** — pencet stomp (B / X) pas ada musuh knock: drag otomatis dilepas, badan ngadep korban, baru stomp. Lock & auto face gak ganggu selama finisher.
+- **Auto Stomp** — musuh knock di jangkauan otomatis di-stomp (default OFF).
 
 **Movement**
 - **No Dash Cooldown** — pas dash game lagi cooldown, dash diganti dash custom (kurva kecepatan sama).
