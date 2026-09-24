@@ -18,7 +18,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EncryptedScripts/komo
 | `Insert` | Munculin / sembunyiin menu |
 | `Z` | Lock ke musuh terdekat / unlock |
 
-Semua keybind bisa diganti dari menu.
+Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy, dll) juga bisa di-remap ke tombol **joystick / gamepad** atau tombol keyboard lain lewat tab **Keybind**.
 
 ## Fitur
 
@@ -41,6 +41,14 @@ Semua keybind bisa diganti dari menu.
 - Nameplate musuh (nama, HP + ghost bar, stamina, cooldown heavy) & HUD sendiri gaya RPG (slot skill heavy) — semua bisa on/off.
 - **Visual Parry** — indikator PARRY / BLOCK / KENA di bawah crosshair + highlight penyerang.
 - **Visual Hitbox** — area kena serangan musuh di tanah (merah = bakal kena lu).
+
+**Shader**
+- Preset lighting: Cinematic, Vibrant, Golden Hour, Neon Night, Tropical, Sakura, Moonlight, Crisp Day, Noir — plus **Custom** (brightness, contrast, saturation, tint, bloom, sun rays, exposure, ambient, mood).
+- Ringan: cuma 1 color correction + ngatur efek bawaan game, gak nambah pass render. Lighting asli balik pas dimatiin.
+- **Hemat FPS** — matiin depth of field & bayangan global game.
+
+**Keybind (joystick & keyboard)**
+- Remap semua aksi game + aksi script ke tombol stik (default: B = block/parry, L2 = dash, R2 = M1, R1 = heavy, dst) atau tombol keyboard alternatif. Controller Remap & Keyboard Remap default OFF.
 
 **Config**
 - Save pakai nama, pilih dari dropdown, load, delete, dan **autoload** config pilihan tiap script dijalanin.
