@@ -60,6 +60,12 @@ Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy,
 - Pilih per gerakan (tombol ▶ buat preview) atau pakai 15 preset: Speedster, Muay Thai, Iron Fist, Blood Rush, Street Brawler, Jaw Breaker, Mob Boss, The World, Aikido Flow, Heavyweight, Hybrid Striker, Thai Combo, Chaos Mix, Cinematic, Prison Classic.
 - Cuma visual: timing kena, jangkauan, dan damage tetep ikut style asli lu. Heavy custom tetep bisa dipake. Kepasang lagi otomatis abis respawn / ganti style, ikut ke-save di config.
 
+**Farm** (tab **Farm**)
+- **Auto ambil garpu**: karakter jalan sendiri ke garpu terdekat yang masih ada di meja, terus diambil.
+- **Auto ngasah jadi pisau**: pegang garpu, ngadep tembok, tiap cek dijawab tepat di tengah zona emas (target PRECISE 10/10). Server cuma mau mulai ngasah di tempat tertentu (di kafetaria ditolak), jadi pindah ke sel kalau muncul pesan ditolak.
+- **Auto gym (Strength)**: jalan ke Bench Press / Lat Pulldown yang kosong, mulai set, tiap not ditekan pas waktunya, terus ngulang set.
+- Selama farm jalan, jangan gerakin karakter. Matiin toggle = langsung berhenti.
+
 **Anti AFK**
 - Cegah kick idle 20 menit Roblox biar Activity Reward jalan (Yen tiap 30 menit, +3 Reroll tiap 120 menit di server yang sama). Default ON, bisa dimatiin di tab Settings.
 
