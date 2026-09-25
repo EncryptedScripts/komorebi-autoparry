@@ -55,6 +55,11 @@ Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy,
 - Item di stik (piso, garpu, barbel, taser, dll): aksi item dicoba duluan, kalau item-nya gak punya aksi itu tombolnya balik ke fungsi remap (L2 tetep lari pas megang piso). Ambil item slot 1–3, ganti item, simpen item — tombol HP: tap = HP / simpen item, tahan = ambil piso.
 - Aksi otomatis (parry, stance, buffer serangan) manggil handler game langsung, gak ada tombol keyboard palsu — pemain stik gak ke-switch ke skema keyboard.
 
+**Animation Changer** (tab **Anim**)
+- Ganti animasi M1–M4, heavy (R), idle combat, jalan combat, dan dash pake animasi style lain di game ini — **keliatan pemain lain**.
+- Pilih per gerakan (tombol ▶ buat preview) atau pakai 15 preset: Speedster, Muay Thai, Iron Fist, Blood Rush, Street Brawler, Jaw Breaker, Mob Boss, The World, Aikido Flow, Heavyweight, Hybrid Striker, Thai Combo, Chaos Mix, Cinematic, Prison Classic.
+- Cuma visual: timing kena, jangkauan, dan damage tetep ikut style asli lu. Heavy custom tetep bisa dipake. Kepasang lagi otomatis abis respawn / ganti style, ikut ke-save di config.
+
 **Anti AFK**
 - Cegah kick idle 20 menit Roblox biar Activity Reward jalan (Yen tiap 30 menit, +3 Reroll tiap 120 menit di server yang sama). Default ON, bisa dimatiin di tab Settings.
 
