@@ -38,6 +38,7 @@ Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy,
 - **Dash Power** — slider kecepatan dash (default = nilai asli game) + tombol reset.
 - **Infinite Stamina** — tetep sprint pas stamina abis.
 - **No Slowdown / No Stun** — gak dipelanin pas nyerang / block / HP rendah, dan tetep bisa gerak pas stun.
+- Pas ragdoll / knock / jatuh, script gak nyentuh badan sama sekali (lock & auto face diem, gak keliatan pake script).
 
 **Visual**
 - Nameplate musuh (nama, HP + ghost bar, stamina, cooldown heavy) & HUD sendiri gaya RPG (slot skill heavy) — semua bisa on/off.
@@ -51,6 +52,11 @@ Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy,
 
 **Keybind (joystick & keyboard)**
 - Remap semua aksi game + aksi script ke tombol stik (default: B = block/parry, L2 = dash, R2 = M1, R1 = heavy, dst) atau tombol keyboard alternatif. Controller Remap & Keyboard Remap default OFF.
+- Item di stik (piso, garpu, barbel, taser, dll): aksi item dicoba duluan, kalau item-nya gak punya aksi itu tombolnya balik ke fungsi remap (L2 tetep lari pas megang piso). Ambil item slot 1–3, ganti item, simpen item — tombol HP: tap = HP / simpen item, tahan = ambil piso.
+- Aksi otomatis (parry, stance, buffer serangan) manggil handler game langsung, gak ada tombol keyboard palsu — pemain stik gak ke-switch ke skema keyboard.
+
+**Anti AFK**
+- Cegah kick idle 20 menit Roblox biar Activity Reward jalan (Yen tiap 30 menit, +3 Reroll tiap 120 menit di server yang sama). Default ON, bisa dimatiin di tab Settings.
 
 **Config**
 - Save pakai nama, pilih dari dropdown, load, delete, dan **autoload** config pilihan tiap script dijalanin.
