@@ -66,6 +66,14 @@ Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy,
 - **Auto gym (Strength)**: jalan ke Bench Press / Lat Pulldown yang kosong, mulai set, tiap not ditekan pas waktunya, terus ngulang set.
 - Selama farm jalan, jangan gerakin karakter. Matiin toggle = langsung berhenti.
 
+**Item** (tab **Farm**)
+- **ESP item**: nama + jarak item yang bisa diambil / di-interact (radio, spray, garpu, kapur, barbel, sampah, pel, NPC), tembus tembok, bisa filter per jenis.
+- **Ambil instan**: TP ke item, ambil, balik ke posisi awal (bisa diganti mode jalan). Ada tombol ambil sekarang per jenis.
+- **Auto ambil** radio / spray / kapur kalau lagi gak pegang.
+- Cuma bisa pegang 1 item tangan, dan radio / spray ilang kalau dilepas — script gak pernah ngelepas item tangan.
+
+**Animation changer auto update**: daftar style, gerakan & animasi gerak dibaca langsung dari game, jadi style / animasi baru langsung muncul.
+
 **Anti AFK**
 - Cegah kick idle 20 menit Roblox biar Activity Reward jalan (Yen tiap 30 menit, +3 Reroll tiap 120 menit di server yang sama). Default ON, bisa dimatiin di tab Settings.
 
