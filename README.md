@@ -17,13 +17,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EncryptedScripts/komo
 | `RightControl` | Auto parry on / off |
 | `Insert` | Munculin / sembunyiin menu |
 | `Z` | Lock ke musuh terdekat / unlock |
+| `K` | No Delay (kecepatan swing) on / off |
 
 Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy, dll) juga bisa di-remap ke tombol **joystick / gamepad** atau tombol keyboard lain lewat tab **Keybind**.
 
 ## Fitur
 
 **Combat**
-- **Auto Parry** — timing dihitung per penyerang (tinggi badan, fighting style, ability aktif), termasuk heavy (Super). Cuma nekan block buat serangan yang beneran bakal kena, biar window parry gak kebuang.
+- **Auto Parry** — timing dihitung per penyerang (tinggi badan, fighting style, ability aktif), termasuk heavy (Super). Cuma nekan block buat serangan yang beneran bakal kena, biar window parry gak kebuang. Udah disesuaikan sama update game 29 Sep 2026 (window parry lebih sempit, rearm block lebih lama): block ditahan selama lawan masih nyerang, jumlah hit heavy dibaca dari server.
 - **Parry Chance, Rotation Cone, Max Range** — atur lewat slider.
 - **Predict Combo** — lawan yang nge-lag (sinyal serangannya telat nyampe) pukulan combo berikutnya ditebak & di-parry duluan.
 - **Auto Face** — kamera & badan otomatis ngadep penyerang, ada slider **Face Smoothing**. OFF = gak muter sama sekali.
@@ -59,16 +60,18 @@ Semua keybind bisa diganti dari menu. Keybind aksi game (block, dash, M1, heavy,
 - Ganti animasi M1–M4, heavy (R), idle combat, jalan combat, dan dash pake animasi style lain di game ini — **keliatan pemain lain**.
 - Pilih per gerakan (tombol ▶ buat preview) atau pakai 15 preset: Speedster, Muay Thai, Iron Fist, Blood Rush, Street Brawler, Jaw Breaker, Mob Boss, The World, Aikido Flow, Heavyweight, Hybrid Striker, Thai Combo, Chaos Mix, Cinematic, Prison Classic.
 - Cuma visual: timing kena, jangkauan, dan damage tetep ikut style asli lu. Heavy custom tetep bisa dipake. Kepasang lagi otomatis abis respawn / ganti style, ikut ke-save di config.
+- **No Delay** — kecepatan animasi swing M1–M4 bisa diatur 0.25x–3x (preset 0.5x / 1x / 1.5x / 2x, default 1x), toggle + keybind (default `K`), keliatan pemain lain. Cuma visual: waktu damage, jeda combo, dan cooldown tetep diatur server.
 
 **Farm** (tab **Farm**)
 - **Auto ambil garpu**: karakter jalan sendiri ke garpu terdekat yang masih ada di meja, terus diambil.
 - **Auto ngasah jadi pisau**: pegang garpu, ngadep tembok, tiap cek dijawab tepat di tengah zona emas (target PRECISE 10/10). Server cuma mau mulai ngasah di tempat tertentu (di kafetaria ditolak), jadi pindah ke sel kalau muncul pesan ditolak.
-- **Auto gym (Strength)**: jalan ke Bench Press / Lat Pulldown yang kosong, mulai set, tiap not ditekan pas waktunya, terus ngulang set.
+- **Auto gym (Strength)**: TP (atau jalan) ke Bench Press / Lat Pulldown yang kosong, keluar combat stance dulu (server nolak gym pas stance), mulai set, tiap not ditekan pas waktunya (PERFECT), terus ngulang set.
+- Server cuma ngasih 1 garpu / pisau: kalau udah pegang salah satunya, garpu baru gak bisa diambil.
 - Selama farm jalan, jangan gerakin karakter. Matiin toggle = langsung berhenti.
 
 **Item** (tab **Farm**)
 - **ESP item**: nama + jarak item yang bisa diambil / di-interact (radio, spray, garpu, kapur, barbel, sampah, pel, NPC), tembus tembok, bisa filter per jenis.
-- **Ambil instan**: TP ke item, ambil, balik ke posisi awal (bisa diganti mode jalan). Ada tombol ambil sekarang per jenis.
+- **Ambil instan**: TP ke item, ambil, balik ke posisi awal (bisa diganti mode jalan). Ada tombol ambil sekarang per jenis. Prompt kursi yang suka nimpa prompt item udah diakalin (fix update 29 Sep 2026).
 - **Auto ambil** radio / spray / kapur kalau lagi gak pegang.
 - Cuma bisa pegang 1 item tangan, dan radio / spray ilang kalau dilepas — script gak pernah ngelepas item tangan.
 
